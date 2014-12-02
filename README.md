@@ -23,6 +23,7 @@ Command | Name | Description
 `a` | Toggle angle snapping | When tracing a way, toggling this will snap your next node to known angles: 30°, 45°, 60°, 90° - helpful for man-made features with geometric shape
 `w` | Way improvement mode | Powerful for improvement of existing data. Toggle this on with a way selected and it'll let you reposition nodes along the way, or hold down the `ctrl` key to insert new nodes, making the linework more accurate.
 `l` | Align in a line | Align the nodes in a way in a straight line
+`tab` | Toggle sidebar | Hide or show the sidebar if you need more editing workspace
 
 ## Imagery & data layers
 
@@ -40,7 +41,7 @@ But remember, most of OpenStreetMap's data standards are by _convention_, so fre
 
 ## GPX Data
 
-If you record GPS traces with other applications that publish GPX files, you can drag-and-drop those files into the JOSM workspace to view as reference data for tracing.
+If you record [GPS traces](http://wiki.openstreetmap.org/wiki/GPS_Traces) with other applications that publish GPX files, you can drag-and-drop those files into the JOSM workspace to view as reference data for tracing.
 
 ## Windows
 
@@ -48,15 +49,21 @@ JOSM has several sidebar windows you can optionally enable depending on what typ
 
 ### Author
 
-`option-shift a`
+`option-shift-a`
 
 Useful for finding out who last edited a feature. This is a cool way to find out who's mapping in your area, add friends, send messages.
 
 ### History
 
-`option-shift h`
+`option-shift-h`
 
 Show full history for a feature (node or way) to see how it's changed over time. Can also link to the changeset in which the feature was last modifed.
+
+### Filter
+
+`option-shift-f`
+
+Extremely useful for minimizing irrelevant clutter on the map. Things like admin boundaries, census data, and landuse can be distracting when you're editing something completely unrelated.
 
 ## Plugins
 
